@@ -1,8 +1,11 @@
 <?php 
 
-namespace App\Hello;
+namespace App;
 
 class Hello
 {
-    public string $talk = "Hello World!";
+    public function talk()
+    {
+        return "Hello World";
+    }
 }
